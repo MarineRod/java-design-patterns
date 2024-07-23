@@ -43,6 +43,12 @@ public class Element {
 	public void setUnite(Unite unite) {
 		this.unite = unite;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Element [name=" + name + ", valeur=" + valeur + ", unite=" + unite + "]";
+	}
 	
 	
 
