@@ -14,43 +14,34 @@ public class Element {
 		this.unite = unite;
 	}
 
-
 	public String getName() {
 		return name;
 	}
-
 
 	public void setName(String name) {
 		this.name = name;
 	}
 
-
 	public double getValeur() {
 		return valeur;
 	}
-
 
 	public void setValeur(double valeur) {
 		this.valeur = valeur;
 	}
 
-
 	public Unite getUnite() {
 		return unite;
 	}
 
-
 	public void setUnite(Unite unite) {
 		this.unite = unite;
 	}
-
 
 	@Override
 	public String toString() {
 		return "Element [name=" + name + ", valeur=" + valeur + ", unite=" + unite + "]";
 	}
 	
-	
-
 
 }
